@@ -1,4 +1,38 @@
 h1{
     color: cornflowerblue;
+    background-color: green;
+}
+h2 {
+    color: red;
+    background-color: darkseagreen;
+
 }
 
+/*
+article > p {
+    font-size: 25px;
+    }
+*/
+
+.article_p {
+    font-size: 1rem;
+}
+
+#footer_p {
+    background-color: black;
+    color: yellow;
+}
+li {
+    background-color: tan;
+    color: red;
+}
+
+/* li:nth-child(2n) selects second Listed Item */
+
+li:nth-child(2n) {
+    background-color: darkseagreen;
+}
+
+img {
+    max-width: 100vw;
+}
